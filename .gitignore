@@ -1,0 +1,33 @@
+# Python compiled and temporary files
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS / local artifacts
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+
+# Keep private local workspaces out of this public repo
+.local/
+private/
+secrets/
+*.key
+*.pem
+.env
+.env.*
