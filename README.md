@@ -46,6 +46,10 @@ There are **no tested plugin packages yet**. Once available, download the matchi
 
 See [installation guidance](docs/INSTALLATION.md) and [release conventions](docs/RELEASING.md).
 
+## Community guides and verified workflows
+
+- [Blenderer: VC 4.10 → Blender rendering (Chinese guide)](docs/blenderer/README.zh-CN.md) — third-party add-on guide, installation notes, observed VC 4.10 + Blender 5.3 PNG test results, and troubleshooting. **Documentation only; no Blenderer source code or binaries are distributed here.** Animation support is not yet validated.
+
 ## Development and contributions
 
 Issues and contributions are welcome. Please include the exact Visual Components version, operating system, reproduction steps, and relevant logs/screenshots, but never share license keys, private CAD models, or company-confidential data.
