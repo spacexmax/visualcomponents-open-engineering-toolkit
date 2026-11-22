@@ -4,7 +4,7 @@
 
 An **unofficial, community-maintained collection** of engineering productivity tools, automation scripts, and add-ons for Visual Components.
 
-> **Current status: project scaffold only.** No working add-ons or installable releases have been published. Project ideas below are proposals, not completed features.
+> **Current status:** Blenderer XG V1 documentation and release notes are available; its GitHub Release installer and full source have **not** been uploaded. The other add-on ideas remain proposals.
 
 ## Goals
 
@@ -12,6 +12,12 @@ An **unofficial, community-maintained collection** of engineering productivity t
 - Track compatibility by exact Visual Components release (starting with 4.10 and 5.0).
 - Publish source code, installation instructions, validation notes, and tested release ZIP packages.
 - Keep each tool independent so users can install only what they need.
+
+## Blenderer XG V1 — community modification
+
+[Features and installation (English)](addons/blenderer/README.md) · [中文功能介绍](addons/blenderer/README.zh-CN.md) · [Changelog](addons/blenderer/CHANGELOG.md)
+
+For VC Premium OLP 4.10 (Python 2.7) and locally tested with Blender 5.3.0. Features include separately configured image/video output folders and filenames, persistent settings, progress and cancel UI, four new light presets and three floor materials. The upstream author designed the 2.6.0 version for Blender 5.2.0. [Permission to share the modification](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34?u=spacex) requires correct version labeling and free access. No installer binary or third-party assets are hosted here yet.
 
 ## Proposed add-ons
 
@@ -42,7 +48,7 @@ docs/
 
 ## Download and installation
 
-There are **no tested plugin packages yet**. Once available, download the matching ZIP from **Releases** and follow the add-on's installation guide. Downloading the repository's source ZIP is not the same as downloading a validated plugin package.
+There are **no plugin packages on this repository's GitHub Releases yet**. Once available, download the matching ZIP from **Releases** and follow the add-on's installation guide. Downloading the repository's source ZIP is not the same as downloading a validated plugin package.
 
 See [installation guidance](docs/INSTALLATION.md) and [release conventions](docs/RELEASING.md).
 
