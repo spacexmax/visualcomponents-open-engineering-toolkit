@@ -44,52 +44,28 @@
 
 [详细安装说明](../../docs/blenderer/INSTALL_VC410.md) · [常见问题](../../docs/blenderer/TROUBLESHOOTING.md) · [更新记录](CHANGELOG.md)
 
-## 下载方式：源码与素材分开（必读）
+## 下载完整安装包（一个 ZIP 即可）
 
-**本插件采用“GitHub 查看源码 + 单独下载完整素材 ZIP”的分发方式。**
+**普通用户只需下载 `Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip`，无需另行下载 SOURCE.zip 或 ASSETS.zip。**
 
-| 你需要的文件 | 从哪里获取 | 用途 |
-| --- | --- | --- |
-| **Python 源码和界面配置** | [本仓库 `addons/blenderer/src/`](src/) | 包含 `Blenderer.py`、`__init__.py`、`defaults.xml`、XAML、CSV、SVG 等 |
-| **灯光与纹理素材**（`ASSETS.zip`） | [本仓库 Releases 页面](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases) | 包含 `Lights/`、`Textures/` 和灯光预设；**截至当前，尚未上传此 ZIP 到 Releases，页面上还没有该附件** |
-| **一包安装版** | [社区帖子 #32](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/32?u=spacex) 中的既有外部下载链接 | 这是之前提供的完整打包版本，不是上述分离式素材附件 |
+从 [GitHub Releases（版本发布）](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases) 找到 **Blenderer 2.6.0 XG V1 — VC 4.10**，展开下方 **Assets（附件）**，下载名称带 `FULL.zip` 的完整压缩包。里面已包含源码、配置、灯光、HDR、纹理及预设。
 
-> **重点：只下载 GitHub 源码无法完整运行。** 需要与 XG V1 对应的 `ASSETS.zip`，且不能将旧版的任意灯光预设直接视为兼容。素材 ZIP 上传到 Releases 后，建议附件使用名称 `Blenderer-2.6.0-XG-V1-VC4.10-ASSETS.zip`，本文会再补上指向那个附件的**直接下载地址**。
-
-### 安装步骤（两个包合并）
-
-1. 在 `addons/blenderer/src/` 取得全部源文件，**保持文件名不变**；或者使用同版本的 SOURCE.zip。
-2. 从上述 Releases 下载**同为 XG V1 / VC 4.10** 的 ASSETS.zip。**当前尚未上传到 GitHub，无法通过 Releases 完成此步骤。**
-3. 将两个包内的文件合并到**同一个 Blenderer 插件文件夹**，不要覆盖错误版本。目标结构应该是：
+将 ZIP **解压**，把其中**直接包含 `__init__.py`、`Blenderer.py`、`Lights/` 和 `Textures/`** 的整个插件文件夹放进：
 
 ```text
 %USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\
-└── Blenderer-XG-V1\
-    ├── __init__.py
-    ├── Blenderer.py
-    ├── defaults.xml
-    ├── BlenderAddOn_Language.py
-    ├── export_from_vc.py
-    ├── import_to_blender.py
-    ├── material_helper.py
-    ├── materials.csv
-    ├── *.xaml
-    ├── rBlendererIcon.svg
-    ├── Lights\
-    │   ├── Presets\
-    │   │   └── presets.xml
-    │   └── *.vcmx
-    └── Textures\
 ```
 
-4. 重启 VC 4.10，指定你的 `blender.exe`，先使用简单场景测试静态 PNG。
+然后重启 VC 4.10，在 Blenderer 中指定实际的 `blender.exe`；建议先测试简单场景的 PNG。
 
-**注意：** 不要将整个仓库的 `Code → Download ZIP` 直接放进 VC 的 Python 2 目录；那个 ZIP 包含仓库其他内容，而且不含大体积素材。
+**开发者：** [这里可在线查看 Python 源码](src/)。仓库的 `Code → Download ZIP` 或 GitHub 自动生成的 `Source code (zip)` **并非完整版插件**，不要用它代替 Releases 里的 FULL.zip。
+
+> 发布状态：FULL.zip 已上传至 GitHub Release 草稿，**尚需正式发布后，其他用户才能从 Releases 下载**。
 
 ## 作者、许可与致谢
 
 - [Blenderer 原始社区讨论](https://forum.visualcomponents.com/t/blender-addon-blenderer/773)
 - [tangtang 发布的 Blenderer 2.6.0](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477)
-- [tangtang 同意公开上传修改版的回复（#34）](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34?u=spacex)
+- [tangtang 同意公开上传修改版的回复（#34）](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)
 
 作者要求标明实际可用版本，并**保持免费、不得设置收费机制**。本修改版遵守免费分享原则。仓库 MIT 许可证不能自动覆盖原项目源码及历史第三方资源。
