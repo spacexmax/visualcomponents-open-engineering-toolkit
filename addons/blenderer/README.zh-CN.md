@@ -32,37 +32,22 @@
 - 上游 Blenderer 2.6.0 由社区作者 tangtang **以 Blender 5.2.0 LTS 为目标设计**；5.3.0 为 XG V1 使用者实测环境，并非上游兼容性保证
 - 静态渲染已有成功记录。视频模式、复杂场景、其他硬件配置和 VC 5.x / Python 3 **未全面验证**
 
-## 安装
+## 下载与安装
 
-将包含 `__init__.py`、`Blenderer.py` 的完整插件文件夹放入：
+**[下载 Blenderer XG V1 完整安装包 FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)** · [正式版本说明](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)
 
-```text
-%USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\
-```
+**只需下载一个 FULL.zip**，已包含 Python 源码、界面配置、Lights 灯光、HDR 环境和 Textures 纹理。**无需额外下载 SOURCE.zip 或 ASSETS.zip。**
 
-重启 VC，打开 Blenderer 并指定实际的 `blender.exe`。建议先测试简单场景的 PNG 图片，确认正常后再尝试短动画。安装前备份旧版，避免重复加载。
+1. 解压 FULL.zip。
+2. 将解压后直接包含 `__init__.py`、`Blenderer.py`、`Lights/` 和 `Textures/` 的完整插件文件夹放入：
+   ```text
+   %USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\
+   ```
+3. 重启 VC 4.10，在插件内选择实际的 `blender.exe`，先用简单场景验证 PNG 渲染。
 
-[详细安装说明](../../docs/blenderer/INSTALL_VC410.md) · [常见问题](../../docs/blenderer/TROUBLESHOOTING.md) · [更新记录](CHANGELOG.md)
+安装前建议备份或移走旧版 Blenderer，避免重复注册。GitHub 的 `Code → Download ZIP` 以及自动生成的 `Source code (zip)` 是整个仓库的源码，**不包含完整渲染资源，不能当成 FULL.zip 安装**。
 
-## 下载完整安装包（一个 ZIP 即可）
-
-**[点击这里直接下载 FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)** · [查看正式发布说明](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)
-
-**普通用户只需下载 `Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip`，无需另行下载 SOURCE.zip 或 ASSETS.zip。**
-
-从 [GitHub Releases（版本发布）](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases) 找到 **Blenderer 2.6.0 XG V1 — VC 4.10**，展开下方 **Assets（附件）**，下载名称带 `FULL.zip` 的完整压缩包。里面已包含源码、配置、灯光、HDR、纹理及预设。
-
-将 ZIP **解压**，把其中**直接包含 `__init__.py`、`Blenderer.py`、`Lights/` 和 `Textures/`** 的整个插件文件夹放进：
-
-```text
-%USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\
-```
-
-然后重启 VC 4.10，在 Blenderer 中指定实际的 `blender.exe`；建议先测试简单场景的 PNG。
-
-**开发者：** [这里可在线查看 Python 源码](src/)。仓库的 `Code → Download ZIP` 或 GitHub 自动生成的 `Source code (zip)` **并非完整版插件**，不要用它代替 Releases 里的 FULL.zip。
-
-> **已正式发布：** [查看 XG V1 发布页面](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) · [直接下载 FULL.zip 完整包](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)。
+**开发者与参考资料：** [源码目录](src/) · [English README](README.md) · [更新日志](CHANGELOG.md) · [历史安装记录](../../docs/blenderer/INSTALL_VC410.md) · [常见问题](../../docs/blenderer/TROUBLESHOOTING.md)
 
 ## 作者、许可与致谢
 
