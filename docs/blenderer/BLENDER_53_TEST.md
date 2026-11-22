@@ -1,5 +1,7 @@
 # 本地实测记录：VC 4.10 + Blenderer 2.6.0 V2 + Blender 5.3
 
+> **历史测试说明：** 此处是 2026-11-13 的 Blenderer 2.6.0 V2 测试，不能自动视为 XG V1 版本全部功能已验收。[XG V1 正式版与安装说明](../../addons/blenderer/README.zh-CN.md)。
+
 > 记录日期：2026-11-13。来自用户实际界面截图和对话中观察到的结果，**非官方兼容性认证**。测试工程的品牌、型号等不保证可再分发。
 
 | 项目 | 环境 / 结果 | 证据范围 |
@@ -27,4 +29,4 @@
 
 **不要写：**“VC 4.10 完全兼容 Blenderer 2.6.0 和 Blender 5.3”“动画导出已通过”“插件由本仓库维护发布”。
 
-资源包、脚本与第三方资产均不随本仓库再分发。
+原记录形成时，资源包和源码尚未在仓库发布。2026-11-22 发布的 [XG V1 完整安装包](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)已包含源码与资源，但本表测试结论仍仅适用于当时记录的 2.6.0 V2 测试环境。
