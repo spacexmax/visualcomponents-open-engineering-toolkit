@@ -4,7 +4,7 @@
 
 ## XG V1 修改版
 
-现已新增 [XG V1 主要功能、改进和安装说明](../../addons/blenderer/README.zh-CN.md)、[更新记录](../../addons/blenderer/CHANGELOG.md)及[发布说明](XG_V1_RELEASE.md)。XG V1 主要面向 VC 4.10 / Python 2.7，使用 Blender 5.3.0 本地测试；原始 2.6.0 由 tangtang 按 Blender 5.2.0 设计。作者已在[社区 #34 回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34?u=spacex)中同意注明版本、保持免费前提下公开上传修改版。**GitHub 源码现已上传至 [addons/blenderer/src/](../../addons/blenderer/src/)，独立 ASSETS 素材 ZIP 尚未上传到 GitHub Releases；请参阅[下载与合并说明](../../addons/blenderer/README.zh-CN.md)。**
+现已新增 [XG V1 主要功能、改进和安装说明](../../addons/blenderer/README.zh-CN.md)、[更新记录](../../addons/blenderer/CHANGELOG.md)及[发布说明](XG_V1_RELEASE.md)。XG V1 主要面向 VC 4.10 / Python 2.7，使用 Blender 5.3.0 本地测试；原始 2.6.0 由 tangtang 按 Blender 5.2.0 设计。作者已在[社区 #34 回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)中同意注明版本、保持免费前提下公开上传修改版。**GitHub 源码现已上传至 [addons/blenderer/src/](../../addons/blenderer/src/)，完整 FULL.zip 已上传 GitHub Release 草稿，正式发布后可下载；请参阅[一包安装说明](../../addons/blenderer/README.zh-CN.md)。**
 
 ## 它能做什么
 
