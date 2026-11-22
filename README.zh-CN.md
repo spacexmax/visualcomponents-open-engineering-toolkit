@@ -4,7 +4,7 @@
 
 这是一个面向 **Visual Components（工业仿真软件）** 的非官方开源工具合集，计划收录工程效率插件、Python（编程语言）脚本及机器人 OLP（离线编程）辅助工具。
 
-> **当前状态：已增加 Blenderer XG V1 的中文/英文介绍、更新记录和发布文档；源码已经上传至 `addons/blenderer/src/`，大型素材 ZIP 仍未上传 GitHub Releases。** 下列其他插件仍为开发计划。
+> **当前状态：已增加 Blenderer XG V1 的中文/英文介绍、更新记录和发布文档；源码已经上传至 `addons/blenderer/src/`，FULL.zip 已上传 Release 草稿，待正式发布。** 下列其他插件仍为开发计划。
 
 ## 仓库目标
 
@@ -17,7 +17,7 @@
 
 [中文功能介绍与安装](addons/blenderer/README.zh-CN.md) · [English](addons/blenderer/README.md) · [更新记录](addons/blenderer/CHANGELOG.md)
 
-面向 VC Premium OLP 4.10（Python 2.7），使用 Blender 5.3.0 进行过本地渲染测试。新增图片/视频输出目录与文件名独立设置、参数记忆、进度及取消、四套灯光和三种地板材质。原版 2.6.0 由 tangtang 按 Blender 5.2.0 设计。[作者同意公开免费上传的回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34?u=spacex)。**[源码已发布](addons/blenderer/src/)，但完整安装仍需要单独下载素材包；[详细下载说明](addons/blenderer/README.zh-CN.md)。素材 ZIP 尚未上传到 GitHub Releases。**
+面向 VC Premium OLP 4.10（Python 2.7），使用 Blender 5.3.0 进行过本地渲染测试。新增图片/视频输出目录与文件名独立设置、参数记忆、进度及取消、四套灯光和三种地板材质。原版 2.6.0 由 tangtang 按 Blender 5.2.0 设计。[作者同意公开免费上传的回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)。**[源码已发布](addons/blenderer/src/)，普通用户直接从 Releases 下载一个 FULL.zip 即可；[详细下载说明](addons/blenderer/README.zh-CN.md)。当前 Release 仍为草稿。**
 
 ## 插件规划
 
@@ -46,11 +46,11 @@ docs/                    # 安装、兼容性、发布说明
 
 完成开发及测试后，访问仓库右侧 **Releases（版本发布）**，下载与实际 VC 版本匹配的 ZIP 包，按照各插件的 README（说明文件）进行安装。
 
-**Blenderer 源码现已发布，但素材 ZIP 尚未上传。请阅读[源码与素材分开下载说明](addons/blenderer/README.zh-CN.md)，不要把仓库整体 ZIP 当成完整安装包。**
+**Blenderer 完整安装包 FULL.zip 已上传 Release 草稿，正式发布后可下载。请阅读[一包安装说明](addons/blenderer/README.zh-CN.md)，不要把仓库整体 ZIP 当成插件安装包。**
 
 ## 第三方工具使用指南
 
-- [Blenderer：VC 4.10 仿真导出到 Blender 中文专题](docs/blenderer/README.zh-CN.md) — 含插件来源、安装教程、VC 4.10 + Blender 5.3 静态渲染实测及常见问题排查。**完整源码现已发布在 `addons/blenderer/src/`，灯光与纹理素材需要单独的 ZIP；GitHub Releases 素材包尚未上传。**
+- [Blenderer：VC 4.10 仿真导出到 Blender 中文专题](docs/blenderer/README.zh-CN.md) — 含插件来源、安装教程、VC 4.10 + Blender 5.3 静态渲染实测及常见问题排查。**源码已发布在 `addons/blenderer/src/`；完整插件及素材整合在一个 FULL.zip 中，上传至 Release 草稿，待正式发布。**
 
 ## 开源与免责声明
 
