@@ -4,7 +4,7 @@
 
 这是一个面向 **Visual Components（工业仿真软件）** 的非官方开源工具合集，计划收录工程效率插件、Python（编程语言）脚本及机器人 OLP（离线编程）辅助工具。
 
-> **当前状态：已增加 Blenderer XG V1 的中文/英文介绍、更新记录和发布文档；源码已经上传至 `addons/blenderer/src/`，FULL.zip 已上传 Release 草稿，待正式发布。** 下列其他插件仍为开发计划。
+> **当前状态：已增加 Blenderer XG V1 的中文/英文介绍、更新记录和发布文档；源码已经上传至 `addons/blenderer/src/`，FULL.zip 已正式发布，可直接下载。** 下列其他插件仍为开发计划。
 
 ## 仓库目标
 
@@ -17,7 +17,7 @@
 
 [中文功能介绍与安装](addons/blenderer/README.zh-CN.md) · [English](addons/blenderer/README.md) · [更新记录](addons/blenderer/CHANGELOG.md)
 
-面向 VC Premium OLP 4.10（Python 2.7），使用 Blender 5.3.0 进行过本地渲染测试。新增图片/视频输出目录与文件名独立设置、参数记忆、进度及取消、四套灯光和三种地板材质。原版 2.6.0 由 tangtang 按 Blender 5.2.0 设计。[作者同意公开免费上传的回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)。**[源码已发布](addons/blenderer/src/)，普通用户直接从 Releases 下载一个 FULL.zip 即可；[详细下载说明](addons/blenderer/README.zh-CN.md)。当前 Release 仍为草稿。**
+面向 VC Premium OLP 4.10（Python 2.7），使用 Blender 5.3.0 进行过本地渲染测试。新增图片/视频输出目录与文件名独立设置、参数记忆、进度及取消、四套灯光和三种地板材质。原版 2.6.0 由 tangtang 按 Blender 5.2.0 设计。[作者同意公开免费上传的回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)。**[源码已发布](addons/blenderer/src/)，普通用户直接从 Releases 下载一个 FULL.zip 即可；[详细下载说明](addons/blenderer/README.zh-CN.md)。[正式版本已发布](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)。**
 
 ## 插件规划
 
@@ -42,19 +42,19 @@ docs/                    # 安装、兼容性、发布说明
 .github/ISSUE_TEMPLATE/ # 问题反馈模板
 ```
 
-## 将来如何下载插件？
+## 下载已发布的插件
 
-完成开发及测试后，访问仓库右侧 **Releases（版本发布）**，下载与实际 VC 版本匹配的 ZIP 包，按照各插件的 README（说明文件）进行安装。
+**Blenderer XG V1：** [正式发布页面](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) · [FULL.zip 完整安装包直链](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)。这个 ZIP 包含源码与全部必要素材，无需另外下载。其他插件待完成实测后再发布。
 
-**Blenderer 完整安装包 FULL.zip 已上传 Release 草稿，正式发布后可下载。请阅读[一包安装说明](addons/blenderer/README.zh-CN.md)，不要把仓库整体 ZIP 当成插件安装包。**
+**Blenderer 完整安装包 FULL.zip 已正式发布，可从 Releases 下载。请阅读[一包安装说明](addons/blenderer/README.zh-CN.md)，不要把仓库整体 ZIP 当成插件安装包。**
 
 ## 第三方工具使用指南
 
-- [Blenderer：VC 4.10 仿真导出到 Blender 中文专题](docs/blenderer/README.zh-CN.md) — 含插件来源、安装教程、VC 4.10 + Blender 5.3 静态渲染实测及常见问题排查。**源码已发布在 `addons/blenderer/src/`；完整插件及素材整合在一个 FULL.zip 中，上传至 Release 草稿，待正式发布。**
+- [Blenderer：VC 4.10 仿真导出到 Blender 中文专题](docs/blenderer/README.zh-CN.md) — 含插件来源、安装教程、VC 4.10 + Blender 5.3 静态渲染实测及常见问题排查。**源码已发布在 `addons/blenderer/src/`；完整插件及素材整合在一个 FULL.zip 中，已在 GitHub Releases 正式发布。**
 
 ## 开源与免责声明
 
-仓库中的原创代码和文档计划采用 [MIT License（MIT 开源许可证）](LICENSE)。其他作者的代码、模型、第三方依赖仍须遵守各自许可证。
+仓库中的原创代码和文档计划采用 [MIT License（MIT 开源许可证）](LICENSE)。其他作者的代码、模型、第三方依赖仍须遵守各自许可证。**仓库的 MIT 许可证不自动适用于 Blenderer 原版代码及 XG V1 整包**；社区作者明确要求免费分享。
 
 这是**非官方独立社区项目**，与 Visual Components 厂商无隶属或官方支持关系。禁止将商业软件本体、授权信息、专有 SDK（软件开发工具包）、未经许可的 CAD（计算机辅助设计）模型等内容上传到本仓库。
 
