@@ -1,5 +1,7 @@
 # Blenderer 常见问题与排查（VC 4.10）
 
+**历史说明：** 本页记录原始 2.6.0 V2 期间遇到的问题，XG V1 已有新的界面与路径设置。新版请优先参考 [XG V1 README](../../addons/blenderer/README.zh-CN.md)。
+
 本页根据 VC Premium OLP 4.10.0 + Blenderer 2.6.0 V2 + Blender 5.3.0 的有限实测整理。先保存 VC Output（输出）日志，再针对现象操作；不要同时修改多个版本或配置项。
 
 ## 1. VC 找不到 Blenderer 按钮
