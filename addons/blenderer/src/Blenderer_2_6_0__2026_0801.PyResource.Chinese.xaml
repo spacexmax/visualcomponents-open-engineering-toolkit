@@ -1,0 +1,232 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Name">Blenderer5.2.0</s:String>
+
+  <!-- ===================== TAB / GROUP NAMES ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Default.Name">默认设置</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights.Name">灯光</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced.Name">高级</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials.Name">材质</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation.Name">动画</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env.Name">环境</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor.Name">地板</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Default.TabHeader">默认</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights.TabHeader">灯光</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced.TabHeader">高级</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials.TabHeader">材质</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation.TabHeader">动画</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env.TabHeader">环境</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor.TabHeader">地板</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Default.Text">默认</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights.Text">灯光</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced.Text">高级</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials.Text">材质</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation.Text">动画</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env.Text">环境</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor.Text">地板</s:String>
+
+  <!-- ===================== DEFAULT TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Output folder.Name">输出文件夹</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Choose output folder.Name">选择文件夹…</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Open output folder.Name">打开输出文件夹</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Image name.Name">图片名称</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Output file.Name">输出文件</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Samples.Name">EEVEE采样数</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Resolution.Name">分辨率</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.ResX.Name">横向分辨率</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.ResY.Name">纵向分辨率</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Page.Name">页面方向</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Page.Landscape">横向</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Page.Portrait">纵向</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Name">光照预设</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Render.Name">渲染图片</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Reuse Previous Scene.Name">复用上次场景</s:String>
+
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Resolution.&lt;Custom&gt;">自定义</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.3 Light Studio">三灯影棚</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.2 Light Studio">双灯影棚</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.1 Light Studio">单灯影棚</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Machine Shop">机加工车间</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Afternoon">午后</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Evening">夜间庭院</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Starry Moonlight">星空月夜</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Overcast Soft Light">阴天柔光</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Equipment Closeup">设备特写</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Night Shift">夜班作业</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.*NULL*">无预设</s:String>
+
+  <!-- ===================== LIGHTS TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Add Point Light.Name">添加点光源</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Add Area Light.Name">添加面光源</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Add Spot Light.Name">添加聚光灯</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Add Sun Light.Name">添加阳光光源</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Default Strength.Name">默认强度</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Add Sparks Emitter.Name">添加火花发射器</s:String>
+
+  <!-- ===================== ADVANCED TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::CameraFov.Name">相机视角场角</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Show Border.Name">显示边框</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Exposure.Name">曝光</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Save preset exposure.Name">保存为此预设的个人曝光</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Reset preset exposure.Name">恢复预设默认曝光</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Bloom.Name">泛光</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Bloom Intensity.Name">泛光强度</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Open in Blender.Name">在 Blender 中打开</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Render Engine.Name">渲染引擎</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Render Engine.EEVEE">EEVEE</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Render Engine.Cycles">Cycles</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::RenderDevice.Name">渲染设备</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::RenderDevice.CPU">CPU</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::RenderDevice.GPU">GPU</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesBackend.Name">Cycles后端</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesBackend.CUDA">CUDA</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesBackend.OptiX">OptiX</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesBackend.HIP">HIP</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesBackend.oneAPI">oneAPI</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesSamples.Name">Cycles采样数</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Render Edges.Name">渲染边缘</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Edge Thickness.Name">边缘粗细</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::DepthOfFieldNode.Name">景深节点</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Depth F-Stop.Name">景深光圈</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Indirect Lighting.Name">间接光照</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Indirect Lighting.Off">关闭</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Indirect Lighting.Fast">快速</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Indirect Lighting.Normal">标准</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Indirect Lighting.HQ">高质量</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Blender Executable.Name">Blender 可执行文件</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Reset All Properties.Name">重置所有属性</s:String>
+
+  <!-- ===================== MATERIALS TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Mode.Name">模式</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Mode.Default">默认</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Mode.Read From Table">从表格读取</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Mode.Write To Table">写入表格</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Table Delimiter.Name">表格分隔符</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Robot Materials.Name">机器人材质</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Robot Materials.Default">默认</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Robot Materials.Smart Materials">智能材质</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Monochrome Override.Name">单色覆盖</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::UseSimpleTransparent.Name">使用简单透明</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::MaterialVersion.Name">材质版本</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::MaterialVersion.OLD">旧版</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::MaterialVersion.NEW">新版</s:String>
+
+  <!-- ===================== ANIMATION TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Output folder.Name">输出文件夹</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Choose output folder.Name">选择文件夹…</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Open output folder.Name">打开输出文件夹</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Video name.Name">视频名称</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RecAnimation.Name">录制动画</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Start.Name">开始</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::End.Name">结束</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Rec step.Name">录制步长</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::FPS.Name">帧率</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Container.Name">视频格式</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Container.MP4">MP4</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RenderVideoMode.Name">输出方式</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RenderVideoMode.PNG Sequence">PNG 序列转 MP4</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RenderVideoMode.Direct Video">直接输出 MP4</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::VideoQuality.Name">视频质量</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::VideoQuality.Lossless">感知无损</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::VideoQuality.High">高质量</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::VideoQuality.Low">低质量</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RenderAnimation.Name">渲染动画</s:String>
+
+  <!-- ===================== ENV TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Background.Name">背景</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Background.Image">图片</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Background.ColorRGB">颜色</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Image.Name">图片</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::ColorRGB.Name">颜色</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Strength.Name">强度</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Rotation.Name">旋转</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Visible.Name">可见</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropType.Name">背景类型</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropType.None">无</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropType.Image">图片</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropType.ColorRGB">颜色</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropImage.Name">背景图片</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropColorRGB.Name">背景颜色</s:String>
+
+  <!-- ===================== FLOOR TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Visible.Name">地板可见</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::BorderSize.Name">边框尺寸</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Name">地板样式</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.ConcreteLight">浅色混凝土</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.ConcreteWhite">白色混凝土</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.ConcreteDark">深色混凝土</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.SlateBrown">棕色板岩</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.SlateGrey">灰色板岩</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.SlateLight">浅色板岩</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Oak">橡木</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Asphalt">沥青</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Alu">铝合金</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.GreyPlaster">灰色石膏</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.SquareFloor">方格地板</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.BrushedConcrete">拉毛混凝土</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Gravel">砾石</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Pavement Dark">深色路面</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Pavement Multi Color">多彩路面</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Factory Green Rubber">工厂绿色橡胶</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Blue Grey Epoxy">蓝灰环氧地坪</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Charcoal Studded Rubber">深灰防滑圆点橡胶</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Garage floor">车库地板</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.&lt;ShadowCatcher&gt;">阴影捕获器</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::ColorTexture.Name">颜色纹理</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::BumpTexture.Name">凹凸纹理</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::BumpStrength.Name">凹凸强度</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::TextureSize.Name">纹理尺寸</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::ColorRGB.Name">颜色</s:String>
+
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RenderVideoMode.Description">直接输出 MP4 可省去中间文件；PNG 序列模式会保留逐帧图片，再合成 MP4。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Video name.Description">无需输入 .mp4；留空时使用 Animation。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Image name.Description">无需输入 .png；留空时使用 Picture。</s:String>
+
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.AbsoluteFolder.Text">请选择有效的输出文件夹，请使用完整路径。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.InvalidName.Text">请输入有效的文件名，名称中不能包含文件夹路径。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ReservedName.Text">这是 Windows 保留名称，请换一个文件名。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.TrailingName.Text">文件名不能以句点或空格结尾。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.NameIsFolder.Text">这个名称已被文件夹占用，请换一个文件名。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.UnwritableFolder.Text">无法写入此目录，请检查权限或选择其他输出文件夹。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.RecordingIncomplete.Text">动画尚未录制完成。请勾选「录制动画」并播放仿真，等仿真超过结束时间且勾选自动取消后再渲染。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.LocateBlender.Text">找不到 Blender。是否现在选择 blender.exe？</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.BlenderPickerTitle.Text">选择 Blender 可执行文件</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.InvalidBlender.Text">请选择一个存在的 blender.exe 文件。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ImageExported.Text">图片导出成功。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.VideoExported.Text">视频导出成功。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.SceneSaved.Text">Blender 场景已保存。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.SavedTo.Text">保存位置：%s</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExportElapsed.Text">导出用时：%.1f 秒</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.FramesOnly.Text">MP4 合成失败，已保留 PNG 帧。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExportFailed.Text">导出失败，未确认生成完整文件。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.InteractiveBlenderStarted.Text">已启动 Blender，场景正在导入。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExportLog.Text">Blender 日志：%s</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.OpenFolderMissing.Text">输出文件夹不存在。请选择一个已有的文件夹。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.OpenFolderFailed.Text">无法打开输出文件夹。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.PresetExposureSaved.Text">已保存当前光照预设的个人曝光。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.PresetExposureReset.Text">已恢复当前光照预设的默认曝光。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.PresetExposureSaveFailed.Text">无法保存曝光设置。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ScenePreparationFailed.Text">无法准备动画场景，请查看上方错误。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExportSetupFailed.Text">无法准备导出或启动 Blender，请查看上方错误。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.InvalidRecordingRange.Text">开始时间不能小于 0，结束时间必须晚于开始时间。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.InvalidRecordingStep.Text">录制步长无效，请输入能得到 1 到 32767 FPS 的正数，例如 0.04 秒。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.RecordingTooLong.Text">这段录制超过了 Blender 的帧数上限，请缩短区间或增大步长。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.NoRecordedFrames.Text">未录到动画帧，请重置仿真再录制。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExpectedAnimationFrames.Text">预计成片：%d 帧，%.3f 秒（%d FPS）</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExportedAnimationFrames.Text">成片：%d 帧，%.3f 秒（%d FPS）</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressTitle.Text">Blenderer 渲染进度</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressPreparing.Text">正在准备场景…</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressRendering.Text">正在渲染</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressEncoding.Text">正在合成 MP4</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressFrames.Text">{0} / {1} 帧</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressFinishing.Text">正在完成导出…</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.CancelRender.Text">取消渲染</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ConfirmCancelRender.Text">确定停止本次渲染？已生成的 PNG 帧会保留。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.CancellingRender.Text">正在停止渲染…</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.CancelRequestFailed.Text">无法请求取消，渲染仍在运行。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.RenderCancelled.Text">本次渲染已取消。</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.CancelledFrames.Text">已保留完成的 PNG 帧：%s</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.PartialFilesLeft.Text">以下临时文件无法删除：</s:String>
+</ResourceDictionary>

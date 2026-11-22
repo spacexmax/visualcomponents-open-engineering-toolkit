@@ -1,0 +1,232 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib">
+
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Text">Blenderer5.2.0</s:String>
+
+  <!-- ===================== TAB / GROUP NAMES ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Default.Name">Default</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights.Name">Lights</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced.Name">Advanced</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials.Name">Materials</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation.Name">Animation</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env.Name">Env</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor.Name">Floor</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Default.TabHeader">Default</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights.TabHeader">Lights</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced.TabHeader">Advanced</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials.TabHeader">Materials</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation.TabHeader">Animation</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env.TabHeader">Env</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor.TabHeader">Floor</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Default.Text">Default</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights.Text">Lights</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced.Text">Advanced</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials.Text">Materials</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation.Text">Animation</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env.Text">Env</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor.Text">Floor</s:String>
+
+  <!-- ===================== DEFAULT TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Output folder.Name">Output folder</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Choose output folder.Name">Choose folder…</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Open output folder.Name">Open output folder</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Image name.Name">Image name</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Output file.Name">Output file</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Samples.Name">Samples</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Resolution.Name">Resolution</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.ResX.Name">ResX</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.ResY.Name">ResY</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Page.Name">Page</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Page.Landscape">Landscape</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Page.Portrait">Portrait</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Name">Lighting Preset</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Render.Name">Render</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Reuse Previous Scene.Name">Reuse Previous Scene</s:String>
+
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Resolution.&lt;Custom&gt;">Custom</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.3 Light Studio">3 Light Studio</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.2 Light Studio">2 Light Studio</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.1 Light Studio">1 Light Studio</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Machine Shop">Machine Shop</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Afternoon">Afternoon</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Evening">Evening</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Starry Moonlight">Starry Moonlight</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Overcast Soft Light">Overcast Soft Light</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Equipment Closeup">Equipment Closeup</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.Night Shift">Night Shift</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lighting Preset.*NULL*">None</s:String>
+
+  <!-- ===================== LIGHTS TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Add Point Light.Name">Add Point Light</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Add Area Light.Name">Add Area Light</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Add Spot Light.Name">Add Spot Light</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Add Sun Light.Name">Add Sun Light</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Default Strength.Name">Default Strength</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Lights::Add Sparks Emitter.Name">Add Sparks Emitter</s:String>
+
+  <!-- ===================== ADVANCED TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::CameraFov.Name">CameraFov</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Show Border.Name">Show Border</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Exposure.Name">Exposure</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Save preset exposure.Name">Save personal exposure for this preset</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Reset preset exposure.Name">Restore preset default exposure</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Bloom.Name">Bloom</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Bloom Intensity.Name">Bloom Intensity</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Open in Blender.Name">Open in Blender</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Render Engine.Name">Render Engine</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Render Engine.EEVEE">EEVEE</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Render Engine.Cycles">Cycles</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::RenderDevice.Name">RenderDevice</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::RenderDevice.CPU">CPU</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::RenderDevice.GPU">GPU</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesBackend.Name">OnlyCyclesBackend</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesBackend.CUDA">CUDA</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesBackend.OptiX">OptiX</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesBackend.HIP">HIP</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesBackend.oneAPI">oneAPI</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::OnlyCyclesSamples.Name">OnlyCyclesSamples</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Render Edges.Name">Render Edges</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Edge Thickness.Name">Edge Thickness</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::DepthOfFieldNode.Name">DepthOfFieldNode</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Depth F-Stop.Name">Depth F-Stop</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Indirect Lighting.Name">Indirect Lighting</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Indirect Lighting.Off">Off</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Indirect Lighting.Fast">Fast</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Indirect Lighting.Normal">Normal</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Indirect Lighting.HQ">HQ</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Blender Executable.Name">Blender Executable</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Advanced::Reset All Properties.Name">Reset All Properties</s:String>
+
+  <!-- ===================== MATERIALS TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Mode.Name">Mode</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Mode.Default">Default</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Mode.Read From Table">Read From Table</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Mode.Write To Table">Write To Table</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Table Delimiter.Name">Table Delimiter</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Robot Materials.Name">Robot Materials</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Robot Materials.Default">Default</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Robot Materials.Smart Materials">Smart Materials</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::Monochrome Override.Name">Monochrome Override</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::UseSimpleTransparent.Name">UseSimpleTransparent</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::MaterialVersion.Name">MaterialVersion</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::MaterialVersion.OLD">OLD</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Materials::MaterialVersion.NEW">NEW</s:String>
+
+  <!-- ===================== ANIMATION TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Output folder.Name">Output folder</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Choose output folder.Name">Choose folder…</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Open output folder.Name">Open output folder</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Video name.Name">Video name</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RecAnimation.Name">RecAnimation</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Start.Name">Start</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::End.Name">End</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Rec step.Name">Rec step</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::FPS.Name">FPS</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Container.Name">Container</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Container.MP4">MP4</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RenderVideoMode.Name">Output mode</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RenderVideoMode.PNG Sequence">PNG Sequence to MP4</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RenderVideoMode.Direct Video">Direct to MP4</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::VideoQuality.Name">VideoQuality</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::VideoQuality.Lossless">Lossless</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::VideoQuality.High">High</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::VideoQuality.Low">Low</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RenderAnimation.Name">RenderAnimation</s:String>
+
+  <!-- ===================== ENV TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Background.Name">Background</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Background.Image">Image</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Background.ColorRGB">ColorRGB</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Image.Name">Image</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::ColorRGB.Name">ColorRGB</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Strength.Name">Strength</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Rotation.Name">Rotation</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::Visible.Name">Visible</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropType.Name">BackdropType</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropType.None">None</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropType.Image">Image</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropType.ColorRGB">ColorRGB</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropImage.Name">BackdropImage</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Env::BackdropColorRGB.Name">BackdropColorRGB</s:String>
+
+  <!-- ===================== FLOOR TAB ===================== -->
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Visible.Name">Visible</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::BorderSize.Name">BorderSize</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Name">Style</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.ConcreteLight">ConcreteLight</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.ConcreteWhite">ConcreteWhite</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.ConcreteDark">ConcreteDark</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.SlateBrown">SlateBrown</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.SlateGrey">SlateGrey</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.SlateLight">SlateLight</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Oak">Oak</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Asphalt">Asphalt</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Alu">Alu</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.GreyPlaster">GreyPlaster</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.SquareFloor">SquareFloor</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.BrushedConcrete">BrushedConcrete</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Gravel">Gravel</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Pavement Dark">Pavement Dark</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Pavement Multi Color">Pavement Multi Color</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Factory Green Rubber">Factory Green Rubber</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Blue Grey Epoxy">Blue Grey Epoxy</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Charcoal Studded Rubber">Charcoal Studded Rubber</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.Garage floor">Garage floor</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::Style.&lt;ShadowCatcher&gt;">&lt;ShadowCatcher&gt;</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::ColorTexture.Name">ColorTexture</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::BumpTexture.Name">BumpTexture</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::BumpStrength.Name">BumpStrength</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::TextureSize.Name">TextureSize</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Floor::ColorRGB.Name">ColorRGB</s:String>
+
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::RenderVideoMode.Description">Direct to MP4 skips intermediate files. PNG Sequence to MP4 keeps each rendered frame.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Animation::Video name.Description">The .mp4 extension is optional. Leave blank to use Animation.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Image name.Description">The .png extension is optional. Leave blank to use Picture.</s:String>
+
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.AbsoluteFolder.Text">Select an output folder with an absolute path.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.InvalidName.Text">Enter a valid file name without a folder path.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ReservedName.Text">This name is reserved by Windows. Enter another file name.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.TrailingName.Text">The file name cannot end with a dot or space.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.NameIsFolder.Text">A folder already uses this output name. Choose another file name.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.UnwritableFolder.Text">Cannot write to this folder. Choose another output folder.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.RecordingIncomplete.Text">Record the animation and let the simulation run past the end time before rendering.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.LocateBlender.Text">Blender was not found. Would you like to select blender.exe now?</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.BlenderPickerTitle.Text">Locate Blender executable</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.InvalidBlender.Text">Select an existing blender.exe file.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ImageExported.Text">Image exported.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.VideoExported.Text">Video exported.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.SceneSaved.Text">Blender scene saved.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.SavedTo.Text">Saved to: %s</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExportElapsed.Text">Export time: %.1f s</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.FramesOnly.Text">MP4 encoding failed. PNG frames were saved.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExportFailed.Text">Export failed. No finished output could be verified.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.InteractiveBlenderStarted.Text">Blender launched. Scene import runs in Blender.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExportLog.Text">Blender log: %s</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.OpenFolderMissing.Text">The output folder does not exist. Choose an existing folder.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.OpenFolderFailed.Text">Could not open the output folder.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.PresetExposureSaved.Text">Saved personal exposure for this lighting preset.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.PresetExposureReset.Text">Restored the default exposure for this lighting preset.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.PresetExposureSaveFailed.Text">Could not save the preset exposure.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ScenePreparationFailed.Text">Failed to prepare the scene for export.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExportSetupFailed.Text">Could not prepare or start Blender. See the details above.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.InvalidRecordingRange.Text">Use a nonnegative start time and an end time after it.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.InvalidRecordingStep.Text">Use a recording step that yields a frame rate between 1 and 32767 FPS.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.RecordingTooLong.Text">The recording range exceeds Blender's frame limit.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.NoRecordedFrames.Text">No animation frames were captured. Reset the simulation and record again.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExpectedAnimationFrames.Text">Expected output: %d frames / %.3f s at %d FPS</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ExportedAnimationFrames.Text">Video output: %d frames / %.3f s at %d FPS</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressTitle.Text">Blenderer render progress</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressPreparing.Text">Preparing scene...</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressRendering.Text">Rendering</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressEncoding.Text">Combining PNG frames into MP4</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressFrames.Text">{0} / {1} frames</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ProgressFinishing.Text">Finishing export...</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.CancelRender.Text">Cancel render</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.ConfirmCancelRender.Text">Stop the current render? Completed PNG frames will be kept.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.CancellingRender.Text">Stopping render...</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.CancelRequestFailed.Text">Could not request cancellation. Rendering is still running.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.RenderCancelled.Text">Render cancelled.</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.CancelledFrames.Text">Completed PNG frames: %s</s:String>
+  <s:String x:Key="ComboKey::Python.cmdBlenderer520.Preflight.PartialFilesLeft.Text">Could not remove these temporary files:</s:String>
+</ResourceDictionary>

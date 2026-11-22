@@ -1,0 +1,32 @@
+<defaults>
+  <property name="Samples" value="8" />
+  <property name="Materials::MaterialVersion" value="OLD" />
+  <property name="Resolution" value="1920x1080" />
+  <property name="ResX" value="1920" />
+  <property name="ResY" value="1080" />
+  <property name="Page" value="Landscape" />
+  <property name="Lighting Preset" value="3 Light Studio" />
+  <property name="Lights::Default Strength" value="500" />
+  <property name="Advanced::CameraFov" value="33.0" />
+  <property name="Advanced::Exposure" value="0.0" />
+  <property name="Advanced::Bloom" value="False" />
+  <property name="Advanced::Bloom Intensity" value="0.1" />
+  <property name="Advanced::Open in Blender" value="False" />
+  <property name="Advanced::Render Engine" value="EEVEE" />
+  <property name="Advanced::RenderDevice" value="GPU" />
+  <property name="Advanced::OnlyCyclesBackend" value="CUDA" />
+  <property name="Advanced::OnlyCyclesSamples" value="64" />
+  <property name="Animation::Start" value="5.0" />
+  <property name="Animation::End" value="10.0" />
+  <property name="Animation::Rec step" value="0.04" />
+  <property name="Animation::FPS" value="25" />
+  <property name="Env::Background" value="Image" />
+  <property name="Env::Strength" value="2.0" />
+  <property name="Env::Rotation" value="0.0" />
+  <property name="Env::Visible" value="True" />
+  <property name="Floor::Visible" value="True" />
+  <property name="Floor::BorderSize" value="6000" />
+  <property name="Floor::Style" value="SlateBrown" />
+  <property name="Floor::TextureSize" value="1200" />
+  <property name="Floor::ColorRGB" value="0.8|0.8|0.8" />
+</defaults>
