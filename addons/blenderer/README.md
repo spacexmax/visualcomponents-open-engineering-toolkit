@@ -40,9 +40,11 @@ Restart VC and point Blenderer to `blender.exe`. Test with a simple PNG before r
 
 ## Download the complete package (one ZIP)
 
+**Direct download:** [Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)
+
 **End users only need `Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip`.** No separate SOURCE.zip or ASSETS.zip is required.
 
-Go to [GitHub Releases](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases), locate **Blenderer 2.6.0 XG V1 — VC 4.10**, expand **Assets**, and download the file ending with `FULL.zip`. This archive contains the Python code, configuration, lights, HDR environments, textures and presets.
+Go to the [published release](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410), locate **Blenderer 2.6.0 XG V1 — VC 4.10**, expand **Assets**, and download the file ending with `FULL.zip`. This archive contains the Python code, configuration, lights, HDR environments, textures and presets.
 
 Extract it, then copy the complete plugin folder containing `__init__.py`, `Blenderer.py`, `Lights/` and `Textures/` to:
 
@@ -54,7 +56,7 @@ Restart VC 4.10, select the installed `blender.exe` and test a simple PNG render
 
 **For developers:** [Browse the source files](src/). GitHub's repository-wide `Code → Download ZIP` and auto-generated `Source code (zip)` **do not include the required large assets**. Download `FULL.zip` from Releases instead.
 
-> Publishing status: FULL.zip is already attached to the draft Release; it becomes publicly downloadable **after the Release is published**.
+> **Published:** [Official XG V1 release](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) · [Download the complete FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip).
 
 ## Credits and redistribution
 
