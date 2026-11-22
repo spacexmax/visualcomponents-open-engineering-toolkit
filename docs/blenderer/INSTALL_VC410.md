@@ -1,5 +1,7 @@
 # Blenderer 2.6.0 V2：VC 4.10 安装与首张图片测试
 
+> **历史说明：本页记录 Blenderer 2.6.0 V2 的早期安装操作，不是 XG V1 完整安装教程。安装最新版请参阅 [XG V1 README](../../addons/blenderer/README.zh-CN.md)和[正式发布包](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)。**
+
 > 安装对象：Visual Components Premium OLP **4.10.0**，Python 2 Add-on。**仅已确认静态渲染，不代表所有功能兼容。** 请先备份原有插件和设置。
 
 ## 1. 准备
