@@ -1,10 +1,10 @@
 # Blenderer：Visual Components 仿真场景在 Blender 中渲染
 
-> 这是 **第三方插件的中文使用、测试与排错资料**，不是本仓库原创插件，也不是第三方软件镜像。维护日期：2026-11-22。
+> 这是 **第三方插件的中文使用、测试与排错资料**，不是本仓库原创插件；XG V1 修改版已发布，但下方部分资料仍记录早期 2.6.0 V2 的历史测试，不能直接等同于 XG V1 新增功能的完整验收。维护日期：2026-11-22。
 
 ## XG V1 修改版
 
-现已新增 [XG V1 主要功能、改进和安装说明](../../addons/blenderer/README.zh-CN.md)、[更新记录](../../addons/blenderer/CHANGELOG.md)及[发布说明](XG_V1_RELEASE.md)。XG V1 主要面向 VC 4.10 / Python 2.7，使用 Blender 5.3.0 本地测试；原始 2.6.0 由 tangtang 按 Blender 5.2.0 设计。作者已在[社区 #34 回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)中同意注明版本、保持免费前提下公开上传修改版。**GitHub 源码现已上传至 [addons/blenderer/src/](../../addons/blenderer/src/)，完整 FULL.zip 已上传 GitHub Release 草稿，正式发布后可下载；请参阅[一包安装说明](../../addons/blenderer/README.zh-CN.md)。**
+现已新增 [XG V1 主要功能、改进和安装说明](../../addons/blenderer/README.zh-CN.md)、[更新记录](../../addons/blenderer/CHANGELOG.md)及[发布说明](XG_V1_RELEASE.md)。XG V1 主要面向 VC 4.10 / Python 2.7，使用 Blender 5.3.0 本地测试；原始 2.6.0 由 tangtang 按 Blender 5.2.0 设计。作者已在[社区 #34 回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)中同意注明版本、保持免费前提下公开上传修改版。**GitHub 源码现已上传至 [addons/blenderer/src/](../../addons/blenderer/src/)，完整 FULL.zip 已在 [GitHub Releases 正式发布](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)，可下载；请参阅[一包安装说明](../../addons/blenderer/README.zh-CN.md)。**
 
 ## 它能做什么
 
