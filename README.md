@@ -4,7 +4,7 @@
 
 An **unofficial, community-maintained collection** of engineering productivity tools, automation scripts, and add-ons for Visual Components.
 
-> **Current status:** Blenderer XG V1 source and documentation are now available in this repository; the complete FULL.zip is attached to a **draft Release**, pending publication. The other add-on ideas remain proposals.
+> **Current status:** Blenderer XG V1 source and documentation are now available in this repository; the complete FULL.zip is now available in a **published Release**. The other add-on ideas remain proposals.
 
 ## Goals
 
@@ -17,7 +17,7 @@ An **unofficial, community-maintained collection** of engineering productivity t
 
 [Features and installation (English)](addons/blenderer/README.md) · [中文功能介绍](addons/blenderer/README.zh-CN.md) · [Changelog](addons/blenderer/CHANGELOG.md)
 
-For VC Premium OLP 4.10 (Python 2.7) and locally tested with Blender 5.3.0. Features include separately configured image/video output folders and filenames, persistent settings, progress and cancel UI, four new light presets and three floor materials. The upstream author designed the 2.6.0 version for Blender 5.2.0. [Permission to share the modification](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34) requires correct version labeling and free access. [Browse XG V1 source](addons/blenderer/src/) and [download instructions](addons/blenderer/README.md). The complete FULL.zip is uploaded to the draft Release and will be available after publication.
+For VC Premium OLP 4.10 (Python 2.7) and locally tested with Blender 5.3.0. Features include separately configured image/video output folders and filenames, persistent settings, progress and cancel UI, four new light presets and three floor materials. The upstream author designed the 2.6.0 version for Blender 5.2.0. [Permission to share the modification](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34) requires correct version labeling and free access. [Browse XG V1 source](addons/blenderer/src/) and [download instructions](addons/blenderer/README.md). [Download the published complete FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip).
 
 ## Proposed add-ons
 
@@ -48,13 +48,16 @@ docs/
 
 ## Download and installation
 
-The Blenderer source is available in [addons/blenderer/src/](addons/blenderer/src/); the complete FULL.zip is attached to a **draft Release**, pending publication. Follow the [single-archive installation instructions](addons/blenderer/README.md); the repository's source ZIP is not a complete plugin installer. Once available, download the matching ZIP from **Releases** and follow the add-on's installation guide. Downloading the repository's source ZIP is not the same as downloading a validated plugin package.
+**Blenderer XG V1:** [Release page](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) · [Download FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip). It contains both source and required rendering assets; no separate package is needed.
+
+
+The Blenderer source is available in [addons/blenderer/src/](addons/blenderer/src/); the complete FULL.zip is now available in a **published Release**. Follow the [single-archive installation instructions](addons/blenderer/README.md); the repository's source ZIP is not a complete plugin installer. Download the matching ZIP from **Releases** and follow the add-on's installation guide. Downloading the repository's source ZIP is not the same as downloading a validated plugin package.
 
 See [installation guidance](docs/INSTALLATION.md) and [release conventions](docs/RELEASING.md).
 
 ## Community guides and verified workflows
 
-- [Blenderer: VC 4.10 → Blender rendering (Chinese guide)](docs/blenderer/README.zh-CN.md) — third-party add-on guide, installation notes, observed VC 4.10 + Blender 5.3 PNG test results, and troubleshooting. **Source files are now available in addons/blenderer/src; the complete FULL.zip has been uploaded to the draft Release and is awaiting publication.** Animation support is not yet validated.
+- [Blenderer: VC 4.10 → Blender rendering (Chinese guide)](docs/blenderer/README.zh-CN.md) — third-party add-on guide, installation notes, observed VC 4.10 + Blender 5.3 PNG test results, and troubleshooting. **Source files are now available in addons/blenderer/src; the complete FULL.zip is available in the published Release.** Animation support is not yet validated.
 
 ## Development and contributions
 
@@ -62,6 +65,6 @@ Issues and contributions are welcome. Please include the exact Visual Components
 
 ## License and disclaimer
 
-Original code and documentation in this repository are offered under the [MIT License](LICENSE), unless a future file explicitly states a different license. Third-party dependencies and assets keep their own licenses.
+Original code and documentation in this repository are offered under the [MIT License](LICENSE), unless a future file explicitly states a different license. Third-party dependencies and assets keep their own licenses. In particular, the repository MIT license does not relicense upstream Blenderer or the XG V1 package; the upstream maintainer's permission specifies free distribution.
 
 **This is an independent community project. It is not made, endorsed, or supported by Visual Components.** Visual Components and other trademarks belong to their respective owners. No commercial software binaries, license files, or proprietary SDK packages are distributed here.
