@@ -24,4 +24,4 @@ Only upload packages that have been installed and tested on the version stated i
 - [ ] ZIP package contents reviewed / 检查压缩包内容
 - [ ] Publish GitHub Release / 发布版本
 
-**No releases exist yet. / 当前尚未发布任何版本。**
+**已发布 / Published：** [Blenderer XG V1](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)。其他规划中插件仍未发布。
