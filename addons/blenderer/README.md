@@ -38,31 +38,28 @@ Restart VC and point Blenderer to `blender.exe`. Test with a simple PNG before r
 
 [中文说明](README.zh-CN.md) · [Changelog](CHANGELOG.md)
 
-## Where to download source and assets
+## Download the complete package (one ZIP)
 
-**The GitHub source and large material assets are distributed separately.**
+**End users only need `Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip`.** No separate SOURCE.zip or ASSETS.zip is required.
 
-| Package | Where to get it | Current status |
-| --- | --- | --- |
-| Source code / UI files | [Source folder on GitHub](src/) | **Available** |
-| `ASSETS.zip` (lights, HDR, presets and textures) | [GitHub Releases](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases) | **Not uploaded yet** |
-| Previous all-in-one archive | [VC community post #32](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/32?u=spacex) | Earlier external package; not the separated assets ZIP |
+Go to [GitHub Releases](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases), locate **Blenderer 2.6.0 XG V1 — VC 4.10**, expand **Assets**, and download the file ending with `FULL.zip`. This archive contains the Python code, configuration, lights, HDR environments, textures and presets.
 
-**Do not install only the source files.** The add-on needs both the source and the matching material package. The future material attachment is named `Blenderer-2.6.0-XG-V1-VC4.10-ASSETS.zip`. Once uploaded to Releases, the direct file download link will be added here.
+Extract it, then copy the complete plugin folder containing `__init__.py`, `Blenderer.py`, `Lights/` and `Textures/` to:
 
-### Installing the two-part package
+```text
+%USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\
+```
 
-1. Download the complete contents of [`src/`](src/) (or the matching SOURCE.zip).
-2. Download the **same-version ASSETS.zip** from [Releases](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases) **after publication**.
-3. Extract both into **the same Blenderer folder** under `%USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\`. Ensure `__init__.py`, `Blenderer.py`, `Lights/Presets/presets.xml`, and `Textures/` are all present in that folder.
-4. Restart VC 4.10, choose `blender.exe`, and test with a simple PNG render.
+Restart VC 4.10, select the installed `blender.exe` and test a simple PNG render.
 
-**The repository-wide `Code → Download ZIP` is not the complete plugin:** it includes other projects and does not include the large assets.
+**For developers:** [Browse the source files](src/). GitHub's repository-wide `Code → Download ZIP` and auto-generated `Source code (zip)` **do not include the required large assets**. Download `FULL.zip` from Releases instead.
+
+> Publishing status: FULL.zip is already attached to the draft Release; it becomes publicly downloadable **after the Release is published**.
 
 ## Credits and redistribution
 
 - [Original Blenderer community thread](https://forum.visualcomponents.com/t/blender-addon-blenderer/773)
 - [tangtang's Blenderer 2.6.0 thread](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477)
-- [tangtang's permission to share modified builds, specifying compatible versions and keeping downloads free (#34)](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34?u=spacex)
+- [tangtang's permission to share modified builds, specifying compatible versions and keeping downloads free (#34)](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)
 
 Free distribution only. The repository's MIT license does not automatically relicense Blenderer upstream code or historical third-party HDR, VCMX and texture resources.
