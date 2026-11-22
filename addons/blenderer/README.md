@@ -26,37 +26,22 @@ These descriptions reflect the modification's source and release notes; not ever
 - The upstream 2.6.0 release by **tangtang** targeted **Blender 5.2.0 LTS**; the local 5.3.0 result is not an upstream compatibility guarantee
 - Still render confirmed; all animation modes, large layouts, other GPUs and VC 5.x / Python 3 are **not fully verified**
 
-## Installation
+## Download and install
 
-Copy the entire plugin folder containing `__init__.py` and `Blenderer.py` to:
+**[Download the complete XG V1 FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)** · [Release notes](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)
 
-```text
-%USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\
-```
+This **single ZIP** includes the plugin source, configuration, lighting presets, HDR environments and textures; no separate SOURCE.zip or ASSETS.zip is required.
 
-Restart VC and point Blenderer to `blender.exe`. Test with a simple PNG before rendering animations.
+1. Extract FULL.zip.
+2. Copy the extracted plugin folder (containing `__init__.py`, `Blenderer.py`, `Lights/`, `Textures/`) to:
+   ```text
+   %USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\
+   ```
+3. Restart VC 4.10, select your `blender.exe`, and test a simple PNG render.
 
-[中文说明](README.zh-CN.md) · [Changelog](CHANGELOG.md)
+Back up or disable older Blenderer installations to prevent conflicting commands. GitHub's automatically generated repository source archives **are not complete install packages**.
 
-## Download the complete package (one ZIP)
-
-**Direct download:** [Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)
-
-**End users only need `Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip`.** No separate SOURCE.zip or ASSETS.zip is required.
-
-Go to the [published release](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410), locate **Blenderer 2.6.0 XG V1 — VC 4.10**, expand **Assets**, and download the file ending with `FULL.zip`. This archive contains the Python code, configuration, lights, HDR environments, textures and presets.
-
-Extract it, then copy the complete plugin folder containing `__init__.py`, `Blenderer.py`, `Lights/` and `Textures/` to:
-
-```text
-%USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\
-```
-
-Restart VC 4.10, select the installed `blender.exe` and test a simple PNG render.
-
-**For developers:** [Browse the source files](src/). GitHub's repository-wide `Code → Download ZIP` and auto-generated `Source code (zip)` **do not include the required large assets**. Download `FULL.zip` from Releases instead.
-
-> **Published:** [Official XG V1 release](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) · [Download the complete FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip).
+**For developers:** [Browse the code](src/) · [中文说明](README.zh-CN.md) · [Changelog](CHANGELOG.md)
 
 ## Credits and redistribution
 
