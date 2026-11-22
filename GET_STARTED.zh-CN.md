@@ -1,18 +1,21 @@
-# 第一次创建公开 GitHub 仓库：5 分钟操作指引
+# GitHub 仓库使用说明
 
-这个压缩包只是**仓库初始模板**，不代表 GitHub 线上仓库已创建。
+> 这是一个历史上用于新建仓库的操作指南。**仓库现已建立并公开，Blenderer XG V1 也已正式发布；不需要再次创建仓库或重新上传初始化文件。**
 
-1. 登录 GitHub，打开 https://github.com/new 。
-2. Owner（所有者）选 `spacexmax`。
-3. Repository name（仓库名）填 `visualcomponents-open-engineering-toolkit`。
-4. Description（简介）填：`Unofficial open-source add-ons and engineering utilities for Visual Components 4.10 and 5.x.`
-5. Visibility（可见范围）选 **Public（公开）**。
-6. 因为模板已经包含 `README.md`、`.gitignore` 和 `LICENSE`，在创建时**不需要**额外初始化这三个文件，直接点击 **Create repository（创建仓库）**。
-7. 在新建的空仓库页面点击 **uploading an existing file（上传现有文件）**。
-8. 解压本 ZIP，打开解压后的 `visualcomponents-open-engineering-toolkit` 文件夹，将里面的**文件和子文件夹**拖进上传页面。注意：**不要只上传 ZIP 压缩包**，否则 GitHub 不会自动展开目录。
-9. 等文件全部列出来，填写 Commit message（提交说明）：`docs: initialize VC toolkit repository`，然后点击 **Commit changes（提交更改）**。
-10. 刷新仓库首页，确认 README、LICENSE、addons、docs 等目录都出现。
+## 当前仓库
 
-如浏览器不支持整目录拖拽，可以使用 GitHub Desktop（GitHub 桌面客户端）把本地文件复制进克隆后的仓库再提交；或者逐级在网页端创建文件。
+- [Visual Components Open Engineering Toolkit](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit)
+- [Blenderer XG V1 正式发布页面](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)
+- [Blenderer XG V1 完整安装包 FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)
+- [中文功能介绍与安装](addons/blenderer/README.zh-CN.md)
+- [插件源码目录](addons/blenderer/src/)
 
-注意：这只是示范结构，当前所有插件均标注**规划中/未测试**，没有下载包。第一个插件完成并测试后再创建 Release（正式版本）。
+## 正确下载安装
+
+普通用户只需下载 **FULL.zip 一个文件**。压缩包中已包含 Python 源码、灯光、HDR、纹理及配置；**无需额外下载 SOURCE.zip、ASSETS.zip，也不要使用 GitHub 自动生成的仓库源代码压缩包来代替完整安装包。**
+
+安装目标为 Visual Components Premium OLP 4.10（Python 2.7）。具体路径、测试范围和注意事项请参阅 [Blenderer 中文 README](addons/blenderer/README.zh-CN.md)。
+
+## 对其他插件的说明
+
+Batch Rename、Component Audit 与 Robot TCP Checker 仍是规划目录，不代表已经开发完成或通过测试。请以各自 README 和 Releases 中公开的实际版本为准。
