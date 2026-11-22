@@ -1,6 +1,8 @@
 # Installing add-ons / 插件安装说明
 
-> **No installable add-ons have been released yet. / 当前没有可安装的插件。**
+> **Blenderer XG V1 已正式发布。** 其他插件仍在规划或测试阶段。
+
+已发布版本：[Blenderer XG V1 Release](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) · [下载完整 FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)
 
 When a release becomes available / 正式发布后：
 
