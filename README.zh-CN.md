@@ -1,61 +1,46 @@
 # Visual Components 开放工程工具集
 
-[English](README.md) · [兼容性](docs/COMPATIBILITY.md) · [安装说明](docs/INSTALLATION.md)
+[English](README.md) · [兼容性](docs/COMPATIBILITY.md) · [通用安装说明](docs/INSTALLATION.md)
 
-这是一个面向 **Visual Components（工业仿真软件）** 的非官方开源工具合集，计划收录工程效率插件、Python（编程语言）脚本及机器人 OLP（离线编程）辅助工具。
+面向 Visual Components 的非官方工程效率工具及插件合集，按具体软件版本记录适配情况与测试范围。
 
-> **当前状态：已增加 Blenderer XG V1 的中文/英文介绍、更新记录和发布文档；源码已经上传至 `addons/blenderer/src/`，FULL.zip 已正式发布，可直接下载。** 下列其他插件仍为开发计划。
+## 已发布：Blenderer 2.6.0 XG V1
 
-## 仓库目标
+用于将 Visual Components 仿真场景导入 Blender，渲染工业设备效果图和动画。
 
-- 从 **Visual Components 4.10** 开始开发和验证，之后根据实际情况适配 **5.0**。
-- 每个插件独立管理源代码、安装方法和兼容性。
-- 公开自己拥有发布权限的代码、说明文档及测试结果。
-- 通过 GitHub Releases（版本发布）提供经验证的 ZIP（压缩包）下载。
+**主要环境：** Visual Components Premium OLP **4.10（Python 2.7）**；Blender **5.3.0** 已有本地静态 PNG 渲染记录。动画及复杂场景尚未全面验收。
 
-## Blenderer XG V1 — 社区修改版
+**[下载 Blenderer XG V1 完整安装包 FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)** · [查看正式发布说明](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)
 
-[中文功能介绍与安装](addons/blenderer/README.zh-CN.md) · [English](addons/blenderer/README.md) · [更新记录](addons/blenderer/CHANGELOG.md)
+安装只需下载 **一个 FULL.zip**，里面已经包含源码、灯光、HDR、纹理和配置。GitHub 首页的 `Code → Download ZIP` 是仓库源码包，**不能代替完整安装包**。
 
-面向 VC Premium OLP 4.10（Python 2.7），使用 Blender 5.3.0 进行过本地渲染测试。新增图片/视频输出目录与文件名独立设置、参数记忆、进度及取消、四套灯光和三种地板材质。原版 2.6.0 由 tangtang 按 Blender 5.2.0 设计。[作者同意公开免费上传的回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)。**[源码已发布](addons/blenderer/src/)，普通用户直接从 Releases 下载一个 FULL.zip 即可；[详细下载说明](addons/blenderer/README.zh-CN.md)。[正式版本已发布](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)。**
+- [中文功能介绍及安装方法](addons/blenderer/README.zh-CN.md)
+- [English README](addons/blenderer/README.md)
+- [在线查看源码](addons/blenderer/src/) · [更新记录](addons/blenderer/CHANGELOG.md)
+- [历史安装与测试记录](docs/blenderer/README.zh-CN.md)
 
-## 插件规划
+**作者说明：** XG V1 是基于 tangtang 维护的 Blenderer 2.6.0 进行的**免费社区修改版**，不是 Visual Components 官方产品。[tangtang 同意公开免费上传的回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)。上游版本按 Blender 5.2.0 设计，不能将当前的有限测试理解为对所有版本的兼容保证。
 
-| 插件 | 预期用途 | VC 4.10 | VC 5.0 | 状态 |
+## 其他规划插件
+
+| 插件 | 用途 | VC 4.10 | VC 5.0 | 状态 |
 | --- | --- | --- | --- | --- |
-| [Batch Rename（批量重命名）](addons/batch-rename/README.md) | 批量修改场景组件名称 | 尚未验证 | 尚未验证 | 规划中 |
-| [Component Audit（组件检查）](addons/component-audit/README.md) | 检查组件名称、属性和结构 | 尚未验证 | 尚未验证 | 规划中 |
-| [Robot TCP Checker（工具坐标检查）](addons/robot-tcp-checker/README.md) | 辅助检查机器人 TCP（工具中心点）坐标 | 尚未验证 | 尚未验证 | 规划中 |
+| [Batch Rename（批量重命名）](addons/batch-rename/README.md) | 场景组件批量改名 | 未验证 | 未验证 | 规划中 |
+| [Component Audit（组件检查）](addons/component-audit/README.md) | 检查名称、属性与结构 | 未验证 | 未验证 | 规划中 |
+| [Robot TCP Checker（工具坐标检查）](addons/robot-tcp-checker/README.md) | 辅助核对机器人 TCP 坐标 | 未验证 | 未验证 | 规划中 |
 
-注意：VC 4.10 与 VC 5.0 的脚本运行环境及 API（应用程序编程接口）可能不同。**不会在未测试的情况下宣称兼容。**
+**版本兼容必须基于实测，不推断 VC 4.10 与 VC 5.x 通用。**
 
-## 目录说明
+## 仓库结构与反馈
 
-```text
-addons/                  # 各个独立插件
-  batch-rename/           # 批量重命名（规划中）
-    vc4.10/               # 将来存放 4.10 版本代码
-    vc5.0/                # 将来存放 5.0 版本代码
-  component-audit/        # 组件检查（规划中）
-  robot-tcp-checker/      # 机器人 TCP 检查（规划中）
-docs/                    # 安装、兼容性、发布说明
-.github/ISSUE_TEMPLATE/ # 问题反馈模板
-```
+- [`addons/`](addons/README.md)：已发布插件及规划中的项目
+- [`docs/`](docs/INSTALLATION.md)：安装、兼容性、测试记录
+- [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/)：问题反馈模板
 
-## 下载已发布的插件
+反馈请说明 Visual Components、Blender 的精确版本、操作步骤和错误日志，注意隐去保密工程文件与软件授权信息。
 
-**Blenderer XG V1：** [正式发布页面](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) · [FULL.zip 完整安装包直链](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)。这个 ZIP 包含源码与全部必要素材，无需另外下载。其他插件待完成实测后再发布。
+## 开源声明
 
-**Blenderer 完整安装包 FULL.zip 已正式发布，可从 Releases 下载。请阅读[一包安装说明](addons/blenderer/README.zh-CN.md)，不要把仓库整体 ZIP 当成插件安装包。**
+本仓库有权授权的原创内容按 [MIT License](LICENSE) 发布；**MIT 不会自动覆盖 Blenderer 原作者代码及第三方资源，XG V1 修改版按作者要求免费分享**。
 
-## 第三方工具使用指南
-
-- [Blenderer：VC 4.10 仿真导出到 Blender 中文专题](docs/blenderer/README.zh-CN.md) — 含插件来源、安装教程、VC 4.10 + Blender 5.3 静态渲染实测及常见问题排查。**源码已发布在 `addons/blenderer/src/`；完整插件及素材整合在一个 FULL.zip 中，已在 GitHub Releases 正式发布。**
-
-## 开源与免责声明
-
-仓库中的原创代码和文档计划采用 [MIT License（MIT 开源许可证）](LICENSE)。其他作者的代码、模型、第三方依赖仍须遵守各自许可证。**仓库的 MIT 许可证不自动适用于 Blenderer 原版代码及 XG V1 整包**；社区作者明确要求免费分享。
-
-这是**非官方独立社区项目**，与 Visual Components 厂商无隶属或官方支持关系。禁止将商业软件本体、授权信息、专有 SDK（软件开发工具包）、未经许可的 CAD（计算机辅助设计）模型等内容上传到本仓库。
-
-问题反馈请使用 GitHub Issues（问题反馈），写明软件版本、复现步骤和错误信息，注意隐去个人或企业敏感信息。
+本项目非官方独立社区项目，不代表 Visual Components 厂商。
