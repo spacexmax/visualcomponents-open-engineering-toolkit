@@ -4,7 +4,7 @@
 
 这是一个面向 **Visual Components（工业仿真软件）** 的非官方开源工具合集，计划收录工程效率插件、Python（编程语言）脚本及机器人 OLP（离线编程）辅助工具。
 
-> **当前状态：只有仓库初始框架，尚无可运行插件，也没有可下载的正式安装包。** 下列项目均是开发计划，不代表已完成。
+> **当前状态：已增加 Blenderer XG V1 的中文/英文介绍、更新记录和发布文档；GitHub Releases 安装包及完整源码尚未上传。** 下列其他插件仍为开发计划。
 
 ## 仓库目标
 
@@ -12,6 +12,12 @@
 - 每个插件独立管理源代码、安装方法和兼容性。
 - 公开自己拥有发布权限的代码、说明文档及测试结果。
 - 通过 GitHub Releases（版本发布）提供经验证的 ZIP（压缩包）下载。
+
+## Blenderer XG V1 — 社区修改版
+
+[中文功能介绍与安装](addons/blenderer/README.zh-CN.md) · [English](addons/blenderer/README.md) · [更新记录](addons/blenderer/CHANGELOG.md)
+
+面向 VC Premium OLP 4.10（Python 2.7），使用 Blender 5.3.0 进行过本地渲染测试。新增图片/视频输出目录与文件名独立设置、参数记忆、进度及取消、四套灯光和三种地板材质。原版 2.6.0 由 tangtang 按 Blender 5.2.0 设计。[作者同意公开免费上传的回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34?u=spacex)。**目前本仓库仅发布文档，尚无 GitHub Releases 安装包。**
 
 ## 插件规划
 
@@ -44,7 +50,7 @@ docs/                    # 安装、兼容性、发布说明
 
 ## 第三方工具使用指南
 
-- [Blenderer：VC 4.10 仿真导出到 Blender 中文专题](docs/blenderer/README.zh-CN.md) — 含插件来源、安装教程、VC 4.10 + Blender 5.3 静态渲染实测及常见问题排查。**本仓库仅提供原创说明，不托管第三方插件代码或安装包；动画尚未实测。**
+- [Blenderer：VC 4.10 仿真导出到 Blender 中文专题](docs/blenderer/README.zh-CN.md) — 含插件来源、安装教程、VC 4.10 + Blender 5.3 静态渲染实测及常见问题排查。**目前本仓库只提供文档和更新记录，暂未上传完整插件代码或 GitHub Releases 安装包；动画尚未完成独立复核。**
 
 ## 开源与免责声明
 
