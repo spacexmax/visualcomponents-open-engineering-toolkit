@@ -1,4 +1,4 @@
-# Blenderer 2.6.0 XG V1 — GitHub 发布说明草稿
+# Blenderer 2.6.0 XG V1 — GitHub 发布说明
 
 **主要用途：** 将 Visual Components 仿真场景导入 Blender，制作工业设备静态效果图及动画视频。
 
@@ -21,7 +21,7 @@
 
 ## 下载
 
-正式发布后在 GitHub Releases 的 Assets（附件）中下载 `Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip`。这个包包含源码与全部运行素材，无需下载其他 ZIP。
+在 [正式发布页面](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) 的 Assets（附件）中下载 `Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip`。这个包包含源码与全部运行素材，无需下载其他 ZIP。
 
 ## 安装
 完整解压到 `%USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\`，确保插件文件夹内含 `__init__.py`，重启 VC 并指定 `blender.exe`。
@@ -32,4 +32,4 @@
 - [2.6.0 论坛](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477)
 - [tangtang 同意上传、要求注明适用版本且不得收费的回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)
 
-**免费分享。** 历史 HDR、VCMX、纹理等资产仍需核查来源与许可。完整 FULL.zip 已上传 GitHub Release 草稿，等待正式发布。
+**免费分享。** 历史 HDR、VCMX、纹理等资产仍需核查来源与许可。完整 FULL.zip 已在 [GitHub Release](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) 正式发布。
