@@ -46,6 +46,8 @@
 
 ## 下载完整安装包（一个 ZIP 即可）
 
+**[点击这里直接下载 FULL.zip](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)** · [查看正式发布说明](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)
+
 **普通用户只需下载 `Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip`，无需另行下载 SOURCE.zip 或 ASSETS.zip。**
 
 从 [GitHub Releases（版本发布）](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases) 找到 **Blenderer 2.6.0 XG V1 — VC 4.10**，展开下方 **Assets（附件）**，下载名称带 `FULL.zip` 的完整压缩包。里面已包含源码、配置、灯光、HDR、纹理及预设。
@@ -60,7 +62,7 @@
 
 **开发者：** [这里可在线查看 Python 源码](src/)。仓库的 `Code → Download ZIP` 或 GitHub 自动生成的 `Source code (zip)` **并非完整版插件**，不要用它代替 Releases 里的 FULL.zip。
 
-> 发布状态：FULL.zip 已上传至 GitHub Release 草稿，**尚需正式发布后，其他用户才能从 Releases 下载**。
+> **已正式发布：** [查看 XG V1 发布页面](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) · [直接下载 FULL.zip 完整包](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/download/blenderer-xg-v1-vc410/Blenderer-2.6.0-XG-V1-VC4.10-FULL.zip)。
 
 ## 作者、许可与致谢
 
