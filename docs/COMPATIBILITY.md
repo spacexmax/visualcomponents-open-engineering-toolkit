@@ -6,6 +6,7 @@ A compatibility claim requires a test on the named product version, including in
 
 | Add-on / 插件 | VC 4.10 | VC 5.0 | VC 5.1 | Tested environment / 测试环境 |
 | --- | --- | --- | --- | --- |
+| [Blenderer XG V1](../addons/blenderer/README.zh-CN.md) | Static PNG observed / 已观察到静态 PNG 渲染；动画尚未完整验收 | Not tested / 未测试 | Not tested / 未测试 | VC Premium OLP 4.10, Python 2.7, Blender 5.3.0 (limited test) |
 | Batch Rename | Not tested / 未测试 | Not tested / 未测试 | Not tested / 未测试 | None |
 | Component Audit | Not tested / 未测试 | Not tested / 未测试 | Not tested / 未测试 | None |
 | Robot TCP Checker | Not tested / 未测试 | Not tested / 未测试 | Not tested / 未测试 | None |
