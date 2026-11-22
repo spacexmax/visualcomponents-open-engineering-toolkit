@@ -22,6 +22,6 @@
 - 测试环境：VC Premium OLP 4.10 / Python 2.7 + Blender 5.3.0
 - 上游 2.6.0 设计目标为 Blender 5.2.0 LTS
 - 社区作者 [tangtang 已同意免费公开上传修改版](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)；旧版资产授权仍需核对
-- 完整 FULL.zip 已上传 GitHub Release 草稿，正式发布后可供下载
+- 完整 FULL.zip 已在 [GitHub Release 正式发布](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410)
 
 > 本文件只整理已有源码及更新说明；未作新一轮软件运行验收。
