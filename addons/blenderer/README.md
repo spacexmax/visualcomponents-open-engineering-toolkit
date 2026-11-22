@@ -38,9 +38,26 @@ Restart VC and point Blenderer to `blender.exe`. Test with a simple PNG before r
 
 [中文说明](README.zh-CN.md) · [Changelog](CHANGELOG.md)
 
-## Download status
+## Where to download source and assets
 
-**No GitHub Release installer is available yet.** Repository source downloads are not validated installer packages. A community post with an external download link is available in [post #32](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/32?u=spacex).
+**The GitHub source and large material assets are distributed separately.**
+
+| Package | Where to get it | Current status |
+| --- | --- | --- |
+| Source code / UI files | [Source folder on GitHub](src/) | **Available** |
+| `ASSETS.zip` (lights, HDR, presets and textures) | [GitHub Releases](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases) | **Not uploaded yet** |
+| Previous all-in-one archive | [VC community post #32](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/32?u=spacex) | Earlier external package; not the separated assets ZIP |
+
+**Do not install only the source files.** The add-on needs both the source and the matching material package. The future material attachment is named `Blenderer-2.6.0-XG-V1-VC4.10-ASSETS.zip`. Once uploaded to Releases, the direct file download link will be added here.
+
+### Installing the two-part package
+
+1. Download the complete contents of [`src/`](src/) (or the matching SOURCE.zip).
+2. Download the **same-version ASSETS.zip** from [Releases](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases) **after publication**.
+3. Extract both into **the same Blenderer folder** under `%USERPROFILE%\Documents\Visual Components\4.10\My Commands\Python 2\`. Ensure `__init__.py`, `Blenderer.py`, `Lights/Presets/presets.xml`, and `Textures/` are all present in that folder.
+4. Restart VC 4.10, choose `blender.exe`, and test with a simple PNG render.
+
+**The repository-wide `Code → Download ZIP` is not the complete plugin:** it includes other projects and does not include the large assets.
 
 ## Credits and redistribution
 
