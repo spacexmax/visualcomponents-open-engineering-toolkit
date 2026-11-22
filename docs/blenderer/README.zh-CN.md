@@ -4,7 +4,7 @@
 
 ## XG V1 修改版
 
-现已新增 [XG V1 主要功能、改进和安装说明](../../addons/blenderer/README.zh-CN.md)、[更新记录](../../addons/blenderer/CHANGELOG.md)及[发布说明](XG_V1_RELEASE.md)。XG V1 主要面向 VC 4.10 / Python 2.7，使用 Blender 5.3.0 本地测试；原始 2.6.0 由 tangtang 按 Blender 5.2.0 设计。作者已在[社区 #34 回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34?u=spacex)中同意注明版本、保持免费前提下公开上传修改版。**GitHub Releases 安装包及完整源码目前尚未上传。**
+现已新增 [XG V1 主要功能、改进和安装说明](../../addons/blenderer/README.zh-CN.md)、[更新记录](../../addons/blenderer/CHANGELOG.md)及[发布说明](XG_V1_RELEASE.md)。XG V1 主要面向 VC 4.10 / Python 2.7，使用 Blender 5.3.0 本地测试；原始 2.6.0 由 tangtang 按 Blender 5.2.0 设计。作者已在[社区 #34 回复](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34?u=spacex)中同意注明版本、保持免费前提下公开上传修改版。**GitHub 源码现已上传至 [addons/blenderer/src/](../../addons/blenderer/src/)，独立 ASSETS 素材 ZIP 尚未上传到 GitHub Releases；请参阅[下载与合并说明](../../addons/blenderer/README.zh-CN.md)。**
 
 ## 它能做什么
 
@@ -40,7 +40,7 @@ Blenderer 在 Visual Components（VC）中读取仿真场景和动画数据，�
 
 ## 原创内容与第三方授权
 
-本目录仅收录**原创中文说明、测试记录和排障经验**，不托管 Blenderer 的第三方 Python 脚本、打包 ZIP、灯光、纹理或其他附件。原版作者、2.6.0 修改作者及相关资产可能拥有不同权利；**对于 2.6.0 修改版已有作者公开同意上传的记录；但对来源独立的旧版 VCMX、HDR、纹理资源，仍应分别核对其授权**。
+本目录收录**原创中文说明、测试记录和排障经验**；修改版源码已单独发布在 `addons/blenderer/src/`，灯光、HDR 和纹理素材不存储于普通 GitHub 源码目录。原版作者、2.6.0 修改作者及相关资产可能拥有不同权利；**对于 2.6.0 修改版已有作者公开同意上传的记录；但对来源独立的旧版 VCMX、HDR、纹理资源，仍应分别核对其授权**。
 
 本仓库的 MIT 许可证只适用于有权授权的原创内容，不会覆盖第三方软件。此项目不是 Visual Components、Blender Foundation 或插件作者官方发布、认可或支持的产品。
 
