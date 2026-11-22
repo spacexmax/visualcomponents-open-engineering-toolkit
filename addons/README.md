@@ -2,6 +2,7 @@
 
 | Folder | Purpose / 用途 | Status / 状态 |
 | --- | --- | --- |
+| [blenderer](blenderer/README.zh-CN.md) | Blender 渲染（社区修改版） | [XG V1 已发布](https://github.com/spacexmax/visualcomponents-open-engineering-toolkit/releases/tag/blenderer-xg-v1-vc410) |
 | [batch-rename](batch-rename/README.md) | Batch component renaming / 组件批量重命名 | Planned / 规划中 |
 | [component-audit](component-audit/README.md) | Scene component checks / 场景组件检查 | Planned / 规划中 |
 | [robot-tcp-checker](robot-tcp-checker/README.md) | Robot TCP coordinate verification aid / 机器人 TCP 坐标辅助检查 | Planned / 规划中 |
