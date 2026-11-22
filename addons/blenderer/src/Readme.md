@@ -68,7 +68,7 @@
 
 - **项目来源：** [Blenderer 原始社区帖](https://forum.visualcomponents.com/t/blender-addon-blenderer/773)
 - **2.6.0 社区维护者：** **tangtang** — [Blenderer 2.6.0 发布帖](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477)
-- **公开上传许可：** [tangtang 于 2026-11-22 的回复（#34）](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34?u=spacex)；作者同意公开上传，要求标注实际可用版本，并明确保持免费、不设置收费机制。
+- **公开上传许可：** [tangtang 于 2026-11-22 的回复（#34）](https://forum.visualcomponents.com/t/blender-add-on-2-6-0-with-python2/9477/34)；作者同意公开上传，要求标注实际可用版本，并明确保持免费、不设置收费机制。
 - **XG V1 改进版：** 基于社区版本优化易用性、文件输出、设置记忆以及部分渲染预设；感谢原项目作者、tangtang 和测试反馈者。
 - **发布原则：** 本修改版**免费分享，不设置收费下载**，也不冒充原版作者的官方发布。
 - **第三方资源：** 部分灯光、VCMX、HDR、纹理来自历史 Blenderer 资源。作者关于上传修改版的回复**不自动等同于每项第三方资源的独立许可证**；再分发时仍需核对其来源与授权。
